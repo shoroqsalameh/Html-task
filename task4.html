@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task4</title>
+</head>
+
+<body>
+    <h1>Fill in your info</h1>
+    <form action="#" method="post" title="form" frameborder="2" >
+        <fieldset>
+        <legend>Form</legend>
+        <div>
+            <label for="firstname">
+                First name <br>
+                 <input type="text" name="firstname" width="10%" maxlength="30" minlength="15">
+            </label> 
+            <br>
+            <label for="LastName">
+                Last name <br>
+                <input type="text" name="LastName" width="10%" maxlength="30" minlength="15">
+            </label>
+           <br>
+            <label for="Email">
+                   Email <br>
+                   <input type="email" name="email" width="10%"  >
+            </label>
+        
+
+        </div>
+        <div>
+            <label for="gender">
+                  <h3>Your Gender</h3>
+                  <input type="radio" name="gender" value="male"> male 
+                  <input type="radio" name="gender" value="female"> Female
+            </label>
+            
+        </div>
+        <div>
+               <label for="Fsubjects" >
+                     <h3>Favorite Subject</h3>
+                     <input type="checkbox" name="c++" value="c++"> C++
+                     <input type="checkbox" name="Java" value="Java">Java
+                     <input type="checkbox" name="C#" value="c#"> C# 
+                     <input type="checkbox" name="php" value="php">php 
+                     <input type="checkbox" name="sql" value="sql">sql    
+                </label>
+        </div>
+        <div>
+              <h3>Your city</h3>
+              <label for="City">
+                City: 
+                <select name="city" id="city"  >
+                    <option value="zarqa">zarqa</option>
+                    <option value="amman" >amman</option>
+                    <option value="irbid">irbid</option>
+                    <option value="Ajloun">ajloun</option>
+                </select>
+              </label>
+        </div>
+         <br>
+        <div>
+              <label for="file">
+                    upload image: <input type="file" name="file" value="choose file"> 
+              </label>
+        </div>
+         <br>
+        <div>
+               <label for="personinf">
+                   Write About yourself: <br>
+                   <textarea name="personinfo" placeholder="write here" maxlength="400" rows="10" cols="50" ></textarea>
+               </label>
+        </div>
+        <input type="submit">
+      
+    </form>
+    <br><br>
+    <form action="#" method="post">
+        <table border="0">
+               <tr>
+                  <td>Name</td>
+                  <td><input type="text" name="name" id="name"></td>
+               </tr>
+               <tr>
+                   <td>Address</td>
+                   <td><input type="text" name="address" id="address"></td>
+               </tr>
+               <tr>
+                    <td>City</td>
+                    <td><input type="text" name="city" id="city"></td>
+               </tr>
+               <tr>
+                <td>State</td>
+                <td><input type="text" name="State" id="State"></td>
+            </tr>
+            <tr>
+                 <td>Zip</td>
+                 <td><input type="text" name="Zip" id="Zip"></td>
+            </tr>
+            <tr>
+                 <td>Magazine</td>
+                 <td>
+                    <select name="maga" id="maga">
+                        <option value="newsweek">newsweek</option>
+                        <option value="newsmonth">newsweek</option>
+
+                    </select>
+                 </td>
+            </tr>
+            <tr>
+                <td>Subscription</td>
+                <td>
+                    <input type="radio" name="sub" value="1 year"> 1 year
+                    <input type="radio" name="sub" value="2 year"> 2 year
+                </td>
+                
+            </tr>
+            
+        </table>
+        <input type="button" name="butt1" value="send your order">
+    </form>
+                  
+</body>
+
+</html>
